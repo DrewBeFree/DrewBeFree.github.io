@@ -54,6 +54,7 @@
   .app-grid  .card:nth-child(2) { animation:fadeUp 0.5s ease 1.22s forwards; }
   .app-grid  .card:nth-child(3) { animation:fadeUp 0.5s ease 1.34s forwards; }
   .app-grid  .card:nth-child(4) { animation:fadeUp 0.5s ease 1.46s forwards; }
+  .app-grid  .card:nth-child(5) { animation:fadeUp 0.5s ease 1.58s forwards; }
   .card::before { content:''; position:absolute; top:0; left:0; right:0; height:2px; background:linear-gradient(90deg,transparent,var(--card-accent,var(--accent)),transparent); opacity:0; transition:opacity 0.3s; }
   .card:hover { border-color:var(--card-accent,var(--accent)); transform:translateY(-3px); box-shadow:0 8px 32px rgba(0,0,0,0.5),0 0 20px var(--card-glow,var(--glow)); }
   .card:hover::before { opacity:1; }
@@ -115,7 +116,7 @@
       <div class="status-block">
         <div class="status-line">NODE <span class="on">● ONLINE</span></div>
         <div class="status-line">SITES <span class="on">4 LIVE</span></div>
-        <div class="status-line">APPS <span class="on">4 DEPLOYED</span></div>
+        <div class="status-line">APPS <span class="on">5 DEPLOYED</span></div>
         <div class="status-line">OPERATOR <a href="resume.pdf" target="_blank" style="color:var(--on);letter-spacing:2px;text-decoration:none;opacity:0.9;transition:opacity 0.2s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.9">A. WEBB ›</a></div>
       </div>
     </div>
@@ -241,12 +242,26 @@
       </div>
     </a>
 
+    <a class="card" href="https://rv.drewbefree.com"
+       style="--card-accent:#f59e0b; --card-glow:rgba(245,158,11,0.1);">
+      <div class="card-id">APP_005 // UTILITY</div>
+      <span class="card-icon">⛺</span>
+      <div class="card-name">RV MAINTENANCE</div>
+      <div class="card-url">rv.drewbefree.com</div>
+      <div class="card-desc">Maintenance tracker for the 2019 Thor Freedom Elite 26HE. Checklists, session history, and overdue indicators for 10 maintenance areas.</div>
+      <div class="card-tags"><span class="tag">RV</span><span class="tag">Maintenance</span><span class="tag">Supabase</span></div>
+      <div class="card-footer">
+        <span class="card-meta">v1.0 · 2026-04-26</span>
+        <span class="card-launch">LAUNCH ›</span>
+      </div>
+    </a>
+
   </div>
 
   <div class="terminal">
     <div class="tl">ping drewbefree.com <span class="ok">✓ 200 OK</span></div>
     <div class="tl">scan ./sites <span class="hi">4 properties indexed · <a href="https://photography.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">photography</a> · <a href="https://kybernet.tech" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">kybernet</a> · <a href="https://surfthewebb.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">surfthewebb</a> · <a href="https://dwebbsolutions.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">dwebbsolutions</a></span></div>
-    <div class="tl">scan ./apps <span class="hi">4 apps deployed · <a href="https://poker.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">poker-night v1.3</a> · <a href="https://uhaul.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">uhaul-planner v0.85</a> · <a href="https://linksy.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">linksy v0.2</a> · <a href="https://tasks.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">daily-planner v0.5</a></span></div>
+    <div class="tl">scan ./apps <span class="hi">5 apps deployed · <a href="https://poker.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">poker-night v1.3</a> · <a href="https://uhaul.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">uhaul-planner v0.85</a> · <a href="https://linksy.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">linksy v0.2</a> · <a href="https://tasks.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">daily-planner v0.5</a> · <a href="https://rv.drewbefree.com" target="_blank" style="color:inherit;text-decoration:none;border-bottom:1px solid rgba(58,96,112,0.5);transition:color 0.2s" onmouseover="this.style.color='var(--text-mid)'" onmouseout="this.style.color='inherit'">rv-maintenance v1.0</a></span></div>
     <div class="tl out">operator: <a href="resume.pdf" target="_blank" style="color:var(--text-dim); text-decoration:none; border-bottom:1px solid rgba(58,96,112,0.5); transition:color 0.2s,border-color 0.2s;" onmouseover="this.style.color='var(--text-mid)';this.style.borderColor='var(--text-mid)'" onmouseout="this.style.color='var(--text-dim)';this.style.borderColor='rgba(58,96,112,0.5)'">Andrew Webb ↗</a> · Atlanta, GA</div>
   </div>
 
